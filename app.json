@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "NeuroConecta",
+    "slug": "neuroconecta",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "neuroconecta",
+    "android": {
+      "package": "com.neuroconecta.app",
+      "permissions": [
+        "POST_NOTIFICATIONS",
+        "READ_MEDIA_IMAGES"
+      ]
+    },
+    "plugins": [
+      "expo-image-picker",
+      "expo-notifications"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.neuroconecta.app",
+      "supportsTablet": false
+    }
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+.expo/
+.env
+supabase/functions/.env
+.env.*
+!.env.example
+!supabase/functions/.env.example
